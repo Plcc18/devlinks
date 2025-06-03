@@ -13,39 +13,72 @@
 <body>
   <div id="container">
     <div id="profile">
-      <img src="./assets/profile.png">
+      <img src="./assets/profile.png" alt="Foto do Pedro Lucas" />
       <p>Pedro Lucas</p>
-      <p>Sou estudante de Desenvolvimento de Sistemas. <br>
-      Focado em Java e backend, sempre em busca de evolução com projetos e prática.</p>
+      <p>
+        Sou estudante de Desenvolvimento de Sistemas. <br />
+        Focado em Java e backend, sempre em busca de evolução com projetos e prática.
+      </p>
     </div>
+
     <div id="switch" onclick="toggleMode()">
-          <button></button>
-          <span></span>
-        </div>
-    <div>
-      <ul>
-        <li>
-          <a href="https://github.com/Plcc18?tab=repositories" target="_blank">Meus projetos</a>
-        </li>
-        <li>
-            <a href="https://www.rocketseat.com.br/formacao/java" target="_blank">Curso de Java</a>
-        </li>
-      </ul>
+      <button></button>
+      <span></span>
     </div>
-      <div id="social-links">
-        <a href="https://github.com/Plcc18" target="_blank">
-          <ion-icon name = "logo-github" ></ion-icon>
-        </a>
-        <a href="https://www.instagram.com/pedroolucasc" target="_blank">
-          <ion-icon name = "logo-instagram" ></ion-icon>
-        </a>
-        <a href="https://www.linkedin.com/in/pedro-lucas-54b9a0331/" target="_blank">
-          <ion-icon name = "logo-linkedin" ></ion-icon>
-        </a>
+
+    <section id="projects">
+      <h2>Meus Projetos</h2>
+      <div class="projects-list">
+        <article class="project-card">
+          <h3>Repositórios no GitHub</h3>
+          <p>
+            Explore meus projetos disponíveis no GitHub, focados em backend com
+            Java e outras tecnologias.
+          </p>
+          <a href="https://github.com/Plcc18?tab=repositories" target="_blank"
+            >Ver Projetos</a
+          >
+        </article>
+      </div>
+    </section>
+
+    <section id="java-course">
+      <h2>Curso de Java</h2>
+      <div class="course-info">
+        <p>
+          Curso completo de Java na Rocketseat, com foco em desenvolvimento backend
+          e melhores práticas.
+        </p>
+        <a
+          href="https://www.rocketseat.com.br/formacao/java"
+          target="_blank"
+          class="btn"
+          >Ver Curso</a
+        >
+      </div>
+    </section>
+
+    <div id="social-links">
+      <a href="https://github.com/Plcc18" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a href="https://www.instagram.com/pedroolucasc" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/pedro-lucas-54b9a0331/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="./script.js"></script>
-  </div>
+</div>
 </body>
 </html>
